@@ -64,12 +64,121 @@
 # greeting_user("name")
 
 #.more trial
-def greeting_user(name,age):
-    print("Hello world!")
-    print(f"Hello, {name}")
-    print("your age is: ", {age})
+# def greeting_user(name,age):
+#     print("Hello world!")
+#     print(f"Hello, {name}")
+#     print("your age is: ", {age})
 
-name=input("Enter your name: ")
-name=name.strip().title()
-age=input("Enter valid number: ")
-greeting_user(name,age)
+# name=input("Enter your name: ")
+# name=name.strip().title()
+# age=input("Enter valid number: ")  # i want to seperator within my code
+# greeting_user(name,age)
+
+
+# def hallo(greetings="World", age=" "):
+#     print("Hello,", greetings) # prints hello+world
+# def hallo(greetings="World", age=" "):
+#     print("Hello,", greetings) # prints hello+world
+#     # print("you are:" ,age, "years old.")
+# hallo() # invokes hallo functions
+# name=input("Enter your name: ") #. asking user an input
+# hallo(name) #passing as an argument whatever the user types as nameto hallo to only print that
+# age=input("Enter your age: ")
+# print(f"you are: {age} years old")
+# # hallo(age)
+
+#.def man()
+# def display_invoice(username,amount,due_date="04/12/2025"):
+#     print(f"Hello, {username}")
+#     print(f"your amount is: ${amount:.3f} and your due_date{due_date}")
+
+# username=input("put your name here: ")
+# username=username.strip().title()
+# amount=float(input(f"what's your amount? "))
+
+
+# display_invoice(username,amount)
+
+def main():
+    x=int(input("put valid integer: "))
+    print("x squared is,", square(x))
+
+def square(n):
+    return n*n
+main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def hallo(greetings="World", age=" "):
+    print("Hello,", greetings) # prints hello+world
+
