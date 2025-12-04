@@ -1,18 +1,9 @@
-#writing my first 'Hello World'
+def main():
+    name=input("what's your name? ")
+    hello(name)
 
-print("hello world")
 
-#Asking user their name.
+def hello(to="hello"):
+    print("hello ", to)
 
-name =input('what is your name? ')
-print("your name is: " + name)
-
-#Asking user their age.
-
-age =input('what is your age? ')
-print = ("you are: "+ age + "years old")
- 
-#Generating an error for learning purpose.
-
-musi= "hello python crash course reader "
-print(musi)    
+main()
